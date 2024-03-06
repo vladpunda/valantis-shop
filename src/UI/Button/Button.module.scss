@@ -1,0 +1,18 @@
+.button {
+  display: flex;
+  padding: 6px 12px 6px 12px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(39, 44, 54);
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:hover {
+    background-color: #e8e5e5;
+    cursor: pointer;
+  }
+}

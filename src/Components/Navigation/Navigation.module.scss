@@ -1,0 +1,37 @@
+.sideBar {
+  box-sizing: border-box;
+  position: fixed;
+  width: 84px;
+  height: 100vh;
+  background-color: rgba(62, 62, 97, 1);
+  border-radius: 30px;
+  .linkWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+
+    a {
+      margin: 0 auto 25px;
+      border: 1px solid rgba(62, 62, 97, 1);
+      border-radius: 19px;
+      padding: 8px 10px;
+      svg {
+        width: 30px;
+        height: 30px;
+        fill: rgba(89, 89, 142, 1);
+      }
+      svg:hover {
+        fill: rgba(255, 255, 255, 1);
+      }
+    }
+    .activeLink {
+      border: 1px solid rgba(95, 95, 167, 0.37);
+      border-radius: 19px;
+      padding: 8px 10px;
+      box-shadow: inset -44px 37px 51px -17px rgba(46, 46, 72, 0.62);
+      svg {
+        fill: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+}

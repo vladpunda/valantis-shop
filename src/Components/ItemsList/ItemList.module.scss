@@ -1,0 +1,66 @@
+.searchInput {
+  display: flex;
+  margin-bottom: 5px;
+  p {
+    margin: auto 0;
+    padding-left: 20px;
+    color: rgba(70, 79, 96, 1);
+  }
+  .searchButton {
+    margin-left: 20px;
+  }
+  .searchLoader {
+    margin-left: 10px;
+    svg {
+      width: 27px;
+      height: 27px;
+    }
+  }
+}
+
+.table {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+
+  thead {
+    th {
+      font-size: 12px;
+      color: rgba(104, 113, 130, 1);
+      text-align: left;
+      padding: 10px 10px;
+      background: rgba(247, 249, 252, 0.8);
+      font-size: 14px;
+      border-top: 1px solid rgba(233, 237, 245, 1);
+      border-bottom: 1px solid rgba(233, 237, 245, 1);
+    }
+  }
+
+  tbody {
+    td {
+      text-align: left;
+      border-bottom: 1px solid rgba(233, 237, 245, 1);
+      padding: 10px 10px;
+      font-size: 14px;
+      color: rgba(23, 28, 38, 1);
+      vertical-align: middle;
+    }
+    td:nth-child(1) {
+      width: 300px;
+    }
+    td:nth-child(2) {
+      width: 400px;
+    }
+    td:nth-child(3) {
+      width: 100px;
+    }
+    td:nth-child(4) {
+      width: 150px;
+    }
+  }
+}
+.paginationButton {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}

@@ -54,6 +54,7 @@ export default function ItemList() {
 
   useEffect(() => {
     getIds(offsetNumber);
+    // eslint-disable-next-line
   }, [offsetNumber]);
 
   const handlePageClick = (limNumber) => {

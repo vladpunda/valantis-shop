@@ -1,2 +1,3 @@
-/apiredirect/* http://api.valantis.store:40000/:splat 200
+
 /* /index.html 200
+/apiredirect/* http://api.valantis.store:40000/:splat 200

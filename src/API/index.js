@@ -8,5 +8,8 @@ const md5Hash = md5(`Valantis_${timeStamp}`);
 export const httpClient = axios.create({
   baseURL: "http://api.valantis.store:40000/",
   timeout: 600000,
-  headers: { "X-Auth": md5Hash, "Access-Control-Allow-Origin": "*" },
+  headers: {
+    "X-Auth": md5Hash,
+    "Access-Control-Allow-Origin": "https://vladpunda.github.io/valantis-shop/",
+  },
 });
